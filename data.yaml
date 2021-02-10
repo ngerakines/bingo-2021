@@ -55,3 +55,23 @@
   description: "You traveled to a country that you have not been to before."
   score: 2
   tags: []
+- id: 86312571-9969-4bbb-b6d2-bbfdf58fc9b8
+  name: "Played a new board game"
+  description: "Either alone or with others, you played a board game that you have not played before"
+  score: 1
+  tags: []
+- id: 94cf77dc-19bc-47c3-b75a-6773ccc9d118
+  name: "Played a new video game"
+  description: "Either alone or with others, you played a video game that you have not played before"
+  score: 1
+  tags: []
+- id: 0976a4a9-f177-41ea-a40f-51bd7edb8bab
+  name: "Went to a show"
+  description: "Either alone or with others, you went to a concert/show. Safely and socially distanced, of course."
+  score: 1
+  tags: []
+- id: cc6e2044-4404-42a8-9dd7-5c7b5cc19052
+  name: "Enabled MFA on all of your social media"
+  description: "You made the smart choice to enable multi-factor auth on all of your social media accounts. You're so smart."
+  score: 2
+  tags: []
