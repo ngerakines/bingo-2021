@@ -1,4 +1,3 @@
-from typing import List, Dict
 import argparse
 import uuid
 import logging
@@ -6,10 +5,10 @@ import yaml
 
 parser = argparse.ArgumentParser(prog="create-proof", description="Records game proof")
 parser.add_argument(
-    "--dest",
-    dest="destination",
-    default="proof.yaml",
-    help="The destination file for the board item. (default: proof.yaml)",
+    "--game",
+    dest="game",
+    default="game.yaml",
+    help="The destination file for the board item. (default: game.yaml)",
 )
 parser.add_argument(
     "--item",
@@ -19,7 +18,7 @@ parser.add_argument(
 parser.add_argument(
     "--player",
     dest="player",
-    help="The player identifer for the proof (optional)",
+    help="The player identifier for the proof (optional)",
 )
 parser.add_argument("--verbose", "-v", action="count", default=1)
 parser.add_argument(
@@ -52,16 +51,16 @@ def main():
 
     logging.info(f"item id: {item}")
 
-    proofs: List[Dict[str, any]] = []
+    with open(args.game, "r") as f:
+        game = yaml.load(f, Loader=yaml.FullLoader)
+        if game is None:
+            game = {}
 
-    with open(args.destination, "r") as f:
-        proofs = yaml.load(f, Loader=yaml.FullLoader)
-        if proofs is None:
-            proofs = []
-        logging.debug(f"read {len(proofs)} proofs")
+    if "proofs" not in game:
+        game["proofs"] = []
 
     found = False
-    for value in proofs:
+    for value in game["proofs"]:
 
         value_player = None
         if "player" in value:
@@ -83,11 +82,10 @@ def main():
         }
         if args.player is not None:
             value["player"] = args.player
-        proofs.append(value)
+        game["proofs"].append(value)
 
-
-    with open(args.destination, "w") as f:
-        yaml.dump(proofs, f)
+    with open(args.game, "w") as f:
+        yaml.dump(game, f)
 
 
 if __name__ == "__main__":

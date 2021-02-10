@@ -49,29 +49,29 @@ def validate_proof(proofs: List[Dict[str, any]]):
     all_values: Dict[str, List[str]] = {}
     for proof in proofs:
         for i in ["item", "proof"]:
-            if i not in item:
+            if i not in proof:
                 raise Exception(f"{i}: attribute missing")
         for i in ["item"]:
-            if not isinstance(item[i], str):
+            if not isinstance(proof[i], str):
                 raise Exception(f"{i}: invalid type: must be str")
         for i in ["proof"]:
-            if not isinstance(item[i], list):
+            if not isinstance(proof[i], list):
                 raise Exception(f"{i}: invalid type: must be list")
 
         proof_player = ""
-        if "player" in item:
-            if not isinstance(item["player"], str):
+        if "player" in proof:
+            if not isinstance(proof["player"], str):
                 raise Exception(f"player: invalid type: must be str")
-            proof_player = item["player"]
-        proof_item = item["item"]
+            proof_player = proof["player"]
+        proof_item = proof["item"]
 
-        key = ":".join([item["id"], item_player])
+        key = ":".join([proof["item"], proof_player])
 
         if key in all_values:
             raise Exception(f"duplicate proof: {proof_item} {proof_player}")
         
         proof_values = []
-        for v in item["proof"]:
+        for v in proof["proof"]:
             if v in proof_values:
                 raise Exception(f"duplicate proof: {proof_item} {proof_player}: {v}")
             proof_values.append(v)
@@ -83,6 +83,11 @@ def main():
     with open("data.yaml", "r") as f:
         items = yaml.load(f, Loader=yaml.FullLoader)
         validate_data(items)
+
+    with open("game.yaml", "r") as f:
+        game = yaml.load(f, Loader=yaml.FullLoader)
+        if "proofs" in game:
+            validate_proof(game["proofs"])
 
 
 if __name__ == "__main__":
