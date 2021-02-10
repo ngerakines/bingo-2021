@@ -24,7 +24,7 @@ parser.add_argument(
     help="The board player",
 )
 parser.add_argument("--verbose", "-v", action="count", default=1)
-
+# TODO: Add support for excluding items using tags.
 
 def main():
     args = parser.parse_args()
