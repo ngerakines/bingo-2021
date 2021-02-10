@@ -25,3 +25,18 @@
   description: "Started a project"
   score: 1
   tags: []
+- id: 234e1671-88ed-46eb-8831-cddc0d21fd7a
+  name: "Went to the movies"
+  description: "Went to the movies"
+  score: 1
+  tags: []
+- id: 916a515b-d96f-48bd-96fe-f4e58da8126a
+  name: "Virtual Happy Hour"
+  description: "Attended a virtual with friends, family, coworkers, or strangers."
+  score: 1
+  tags: []
+- id: c8dc1c7b-adaf-4f99-a014-9754dcaa5d27
+  name: "COVID-19 Vaccine"
+  description: "Got the COVID-19 vaccine."
+  score: 1
+  tags: []
