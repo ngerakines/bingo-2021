@@ -120,3 +120,8 @@
   description: "You've binge-watched 5 seasons of TV shows this year."
   score: 1
   tags: []
+- id: 23aecd80-2cf8-479a-8ce1-4d9d808eddcb
+  name: "High-five and rotate"
+  description: "You took a swing-dance lesson."
+  score: 1
+  tags: []
