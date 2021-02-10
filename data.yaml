@@ -1,0 +1,11 @@
+- description: You have a new creature in your life.
+  id: F3D50AF8-050F-4384-976C-838821ABD4A6
+  name: Got a new pet
+  score: 1
+  tags:
+  - personal
+- description: This is a freebie.
+  id: 5b2245f9-7b66-4dc7-8837-ab4704cf6f96
+  name: Drank more water
+  score: 1
+  tags: []

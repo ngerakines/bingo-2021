@@ -1,0 +1,21 @@
+name: Super-Linter
+on: push
+jobs:
+  data-lint:
+    name: Lint data files
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pyyaml
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+    - name: Lint
+      run: |
+        python ci.py

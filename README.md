@@ -73,3 +73,32 @@ A proof may also apply to only a single user. For example "Changed jobs" could b
   proof:
   - "https://www.linkedin.com/in/ngerakines"
 ```
+
+# Tools
+
+## create-item.py
+
+The `create-item.py` script can be used to safely.
+
+    $ python create-item.py --name "Went dancing" --description "Hit the dance floor" --tag social
+
+Usage:
+
+```
+usage: create-item [-h] [--dest DESTINATION] [--id ID] [--name NAME] [--description DESCRIPTION] [--score SCORE] [--tag TAGS [TAGS ...]] [--verbose]
+
+Create a board item
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dest DESTINATION    The destination file for the board item. (default: data.yaml)
+  --id ID               The unique id of the board item.
+  --name NAME           The name of the board item.
+  --description DESCRIPTION
+                        The description of the board item. (optional)
+  --score SCORE         The point value of the board item. (default: 1)
+  --tag TAGS [TAGS ...]
+                        The tags applicable to the board item.
+  --verbose, -v
+```
+
