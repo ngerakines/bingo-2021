@@ -4,3 +4,24 @@
   score: 1
   tags:
   - personal
+- id: 78257f57-e8ba-4330-9495-a9fdd7920273
+  name: Went on a road trip
+  description:
+  score: 1
+  tags:
+  - travel
+- id: 380ba73f-5eab-4b47-85d0-50ed231081e9
+  name: Recommended a book to someone
+  description:
+  score: 1
+  tags: []
+- id: bbd98280-c9da-4c41-b553-3c4699269378
+  name: Read a book that someone recommended
+  description:
+  score: 1
+  tags: []
+- id: 13330de0-232f-411a-94ce-ddfe5a2e9cad
+  name: Started a project
+  description: 
+  score: 1
+  tags: []
