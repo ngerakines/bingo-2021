@@ -1,6 +1,182 @@
 - description: You have a new creature in your life.
   id: F3D50AF8-050F-4384-976C-838821ABD4A6
-  name: Got a new pet
+  name: "Got a new pet"
   score: 1
   tags:
   - personal
+- id: 78257f57-e8ba-4330-9495-a9fdd7920273
+  name: "Went on a road trip"
+  description: "Went on a road trip"
+  score: 1
+  tags:
+  - travel
+- id: 380ba73f-5eab-4b47-85d0-50ed231081e9
+  name: "Recommended a book to someone"
+  description: "Recommended a book to someone"
+  score: 1
+  tags: []
+- id: bbd98280-c9da-4c41-b553-3c4699269378
+  name: "Read a book that someone recommended"
+  description: "Read a book that someone recommended"
+  score: 1
+  tags: []
+- id: 13330de0-232f-411a-94ce-ddfe5a2e9cad
+  name: "Started a project"
+  description: "Started a project"
+  score: 1
+  tags: []
+- id: 234e1671-88ed-46eb-8831-cddc0d21fd7a
+  name: "Went to the movies"
+  description: "Went to the movies"
+  score: 1
+  tags: []
+- id: 916a515b-d96f-48bd-96fe-f4e58da8126a
+  name: "Virtual Happy Hour"
+  description: "Attended a virtual with friends, family, coworkers, or strangers."
+  score: 1
+  tags: []
+- id: c8dc1c7b-adaf-4f99-a014-9754dcaa5d27
+  name: "COVID-19 Vaccine"
+  description: "Got the COVID-19 vaccine."
+  score: 1
+  tags: []
+- id: 91077829-0a5c-46c0-8078-b0dc3b0a6c56
+  name: "Went out dancing"
+  description: "Bonus point if it was swing dancing."
+  score: 1
+  tags: []
+- id: b0e3b43d-966d-499b-af2d-b5bf961de083
+  name: "Traveled to a new state"
+  description: "You traveled to a state that you have not been to before."
+  score: 1
+  tags: []
+- id: 88476d84-403b-4ae6-bb31-cf48499ce998
+  name: "Traveled to a new country"
+  description: "You traveled to a country that you have not been to before."
+  score: 2
+  tags: []
+- id: 86312571-9969-4bbb-b6d2-bbfdf58fc9b8
+  name: "Played a new board game"
+  description: "Either alone or with others, you played a board game that you have not played before"
+  score: 1
+  tags: []
+- id: 94cf77dc-19bc-47c3-b75a-6773ccc9d118
+  name: "Played a new video game"
+  description: "Either alone or with others, you played a video game that you have not played before"
+  score: 1
+  tags: []
+- id: 0976a4a9-f177-41ea-a40f-51bd7edb8bab
+  name: "Went to a show"
+  description: "Either alone or with others, you went to a concert/show. Safely and socially distanced, of course."
+  score: 1
+  tags: []
+- id: cc6e2044-4404-42a8-9dd7-5c7b5cc19052
+  name: "Enabled MFA on all of your social media"
+  description: "You made the smart choice to enable multi-factor auth on all of your social media accounts. You're so smart."
+  score: 2
+  tags: []
+- id: 2f637aa2-a9e6-403a-8bb5-0bdb3f185032
+  name: "Baked bread"
+  description: "You made some bread from scratch."
+  score: 1
+  tags: ["food"]
+- id: cfc8ecbe-24db-45e0-8243-1cfc71f3182e
+  name: "Went to a live sport event"
+  description: "Either alone or with others, you went to a live sport event. Safely and socially distanced, of course."
+  score: 1
+  tags: []
+- id: 3655b71c-9d61-482e-ab24-ed53e80f8186
+  name: "Encouraged someone"
+  description: "You gave someone the encouragement that they needed."
+  score: 1
+  tags: []
+- id: 74fdcea1-ac9a-45a0-9904-bc89491728f0
+  name: "Gave someone a TIL moment"
+  description: "You said or demonstrated something that someone didn't know about until you did it."
+  score: 1
+  tags: []
+- id: 5afb6ed6-773b-428c-b86e-0f74502254c7
+  name: "Shower beer"
+  description: "You enjoyed a cost beverage while taking a hot shower."
+  score: 1
+  tags: []
+- id: 7dccbcf1-de2d-476f-bc7a-56933bc14d4f
+  name: "Cold days call for hot beverages"
+  description: "You enjoyed a refreshing warm beverage on an especially cold day."
+  score: 1
+  tags: []
+- id: d9b01366-e06c-42e0-8d80-025242f37fdd
+  name: "Hot days call for chilled beverages"
+  description: "You enjoyed a refreshing cold beverage on an especially hot day."
+  score: 1
+  tags: []
+- id: 6342d453-4b28-47f7-afed-01fd34927171
+  name: "Planes, trains, and automobiles"
+  description: "You have traveled between two points over 3,000 miles away."
+  score: 1
+  tags: []
+- id: 42c489bd-67e6-4e99-aca1-6b6a5cba688c
+  name: "Netflix with no chill"
+  description: "You've binge-watched 5 seasons of TV shows this year."
+  score: 1
+  tags: []
+- id: 23aecd80-2cf8-479a-8ce1-4d9d808eddcb
+  name: "High-five and rotate"
+  description: "You took a swing-dance lesson."
+  score: 1
+  tags: []
+- id: f465d5b9-5876-44de-af66-609830725fe8
+  name: "Went to the zoo"
+  description: "Either alone or with others, you went to a zoo."
+  score: 1
+  tags: []
+- id: dabadf29-d2ea-4e51-aa1e-a995b59f3017
+  name: "Went to the museum"
+  description: "Either alone or with others, you went to a museum."
+  score: 1
+  tags: []
+- id: 3f53d428-0e47-4d8a-849b-0f0d30953f46
+  name: "Went to the aquarium"
+  description: "Either alone or with others, you went to an aquarium."
+  score: 1
+  tags: []
+- id: 3184e666-6723-4979-8c2c-5dd8323cfb1c
+  name: "Mob sacks home of politician"
+  description: "Mob sacks home of politician"
+  score: 1
+  tags: ["politics"]
+- id: 9b12ab2e-0757-4277-8679-8f28fd946aef
+  name: "CDC recommends vaccine for a second Covid strain"
+  description: "CDC recommends vaccine for a second Covid strain"
+  score: 1
+  tags: ["covid"]
+- id: 976a83df-1a73-463b-bea4-56e57df8ae01
+  name: "Citizen sabotages Covid vaccine shipment"
+  description: "Citizen sabotages Covid vaccine shipment"
+  score: 1
+  tags: ["covid"]
+- id: 2fe0a27a-8f2d-4206-998c-08a112dab8c9
+  name: "Religious leaders scab for striking teachers"
+  description: "Religious leaders scab for striking teachers"
+  score: 1
+  tags: ["politics"]
+- id: 31f182da-0a7d-4e16-ad6f-2b80c0f90162
+  name: "Fortune 500 company declares bankruptcy"
+  description: "Fortune 500 company declares bankruptcy"
+  score: 1
+  tags: []
+- id: 7f2ba428-0c37-4a02-9094-7e61505c2000
+  name: "COVID vampires"
+  description: "Blood transfusions are promoted instead of vaccines."
+  score: 1
+  tags: ["covid"]
+- id: 2c86cbe5-344f-40cf-8779-d9edadb0b124
+  name: "Commodity STONKS"
+  description: "The market price of a commodity becomes negative"
+  score: 1
+  tags: []
+- id: 5145d928-d262-4169-a9d8-ddfdbd7005c1
+  name: "A new bracelet fad"
+  description: "A new bracelet fad."
+  score: 1
+  tags: []
