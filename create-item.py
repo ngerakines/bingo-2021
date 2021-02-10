@@ -96,8 +96,6 @@ def main():
 
     logging.info(f"item id: {item_id}")
 
-    items: List[Dict[str, any]] = []
-
     with open(args.destination, "r") as f:
         items = yaml.load(f, Loader=yaml.FullLoader)
         logging.debug(f"read {len(items)} items")
