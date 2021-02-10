@@ -95,3 +95,18 @@
   description: "You said or demonstrated something that someone didn't know about until you did it."
   score: 1
   tags: []
+- id: 5afb6ed6-773b-428c-b86e-0f74502254c7
+  name: "Shower beer"
+  description: "You enjoyed a cost beverage while taking a hot shower."
+  score: 1
+  tags: []
+- id: 7dccbcf1-de2d-476f-bc7a-56933bc14d4f
+  name: "Cold days call for hot beverages"
+  description: "You enjoyed a refreshing warm beverage on an especially cold day."
+  score: 1
+  tags: []
+- id: d9b01366-e06c-42e0-8d80-025242f37fdd
+  name: "Hot days call for chilled beverages"
+  description: "You enjoyed a refreshing cold beverage on an especially hot day."
+  score: 1
+  tags: []
