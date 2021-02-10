@@ -115,3 +115,8 @@
   description: "You have traveled between two points over 3,000 miles away."
   score: 1
   tags: []
+- id: 42c489bd-67e6-4e99-aca1-6b6a5cba688c
+  name: "Netflix with no chill"
+  description: "You've binge-watched 5 seasons of TV shows this year."
+  score: 1
+  tags: []
