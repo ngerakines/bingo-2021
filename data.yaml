@@ -90,3 +90,8 @@
   description: "You gave someone the encouragement that they needed."
   score: 1
   tags: []
+- id: 74fdcea1-ac9a-45a0-9904-bc89491728f0
+  name: "Gave someone a TIL moment"
+  description: "You said or demonstrated something that someone didn't know about until you did it."
+  score: 1
+  tags: []
