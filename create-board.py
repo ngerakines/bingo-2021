@@ -11,6 +11,7 @@ parser.add_argument(
     default="game.yaml",
     help="The destination game file for the board. (default: game.yaml)",
 )
+# TODO: Allow multiple source files to be used.
 parser.add_argument(
     "--source",
     dest="source",
@@ -62,6 +63,9 @@ def main():
     if board_player in [x["player"] for x in boards["boards"]]:
         raise Exception("player already has a board")
 
+    # TODO: Fail if there aren't enough items to populate a board.
+
+    # TODO: Record which source files were used to generate the board.
     boards["boards"].append({
         "player": board_player,
         "board": [[{"item": items.pop()["id"]} for _ in range(10)] for _ in range(10)]

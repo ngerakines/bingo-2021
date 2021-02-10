@@ -106,7 +106,7 @@ optional arguments:
 
 ## create-proof.py
 
-The `create-proof.py` script can be used to safely record a proof.
+The `create-proof.py` script can be used to safely record a proof in a game.
 
 Example:
 
@@ -115,17 +115,40 @@ Example:
 Usage:
 
 ```
-usage: create-proof [-h] [--dest DESTINATION] [--item ITEM] [--player PLAYER] [--verbose] proof
+usage: create-proof [-h] [--game GAME] [--item ITEM] [--player PLAYER] [--verbose] proof
 
 Records game proof
 
 positional arguments:
-  proof               The proof reference.
+  proof            The proof reference.
 
 optional arguments:
-  -h, --help          show this help message and exit
-  --dest DESTINATION  The destination file for the board item. (default: proof.yaml)
-  --item ITEM         The unique id of the board item.
-  --player PLAYER     The player identifer for the proof (optional)
+  -h, --help       show this help message and exit
+  --game GAME      The destination file for the board item. (default: game.yaml)
+  --item ITEM      The unique id of the board item.
+  --player PLAYER  The player identifier for the proof (optional)
+  --verbose, -v
+```
+
+## create-board.py
+
+The `create-board.py` script can be used to safely record a player board in a game.
+
+Example:
+
+    $ python create-board.py --player nick
+
+Usage:
+
+```
+usage: create-proof [-h] [--game GAME] [--source SOURCE] [--player PLAYER] [--verbose]
+
+Records game proof
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --game GAME      The destination game file for the board. (default: game.yaml)
+  --source SOURCE  The source file for the board item. (default: data.yaml)
+  --player PLAYER  The board player
   --verbose, -v
 ```
