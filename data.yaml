@@ -40,3 +40,18 @@
   description: "Got the COVID-19 vaccine."
   score: 1
   tags: []
+- id: 91077829-0a5c-46c0-8078-b0dc3b0a6c56
+  name: "Went out dancing"
+  description: "Bonus point if it was swing dancing."
+  score: 1
+  tags: []
+- id: b0e3b43d-966d-499b-af2d-b5bf961de083
+  name: "Traveled to a new state"
+  description: "You traveled to a state that you have not been to before."
+  score: 1
+  tags: []
+- id: 88476d84-403b-4ae6-bb31-cf48499ce998
+  name: "Traveled to a new country"
+  description: "You traveled to a country that you have not been to before."
+  score: 2
+  tags: []
