@@ -45,6 +45,39 @@ def validate_data(items: List[Dict[str, any]]):
             if not isinstance(tag, str):
                 raise Exception(f"{tag}: invalid type: tag must be str")
 
+def validate_proof(proofs: List[Dict[str, any]]):
+    all_values: Dict[str, List[str]] = {}
+    for proof in proofs:
+        for i in ["item", "proof"]:
+            if i not in item:
+                raise Exception(f"{i}: attribute missing")
+        for i in ["item"]:
+            if not isinstance(item[i], str):
+                raise Exception(f"{i}: invalid type: must be str")
+        for i in ["proof"]:
+            if not isinstance(item[i], list):
+                raise Exception(f"{i}: invalid type: must be list")
+
+        proof_player = ""
+        if "player" in item:
+            if not isinstance(item["player"], str):
+                raise Exception(f"player: invalid type: must be str")
+            proof_player = item["player"]
+        proof_item = item["item"]
+
+        key = ":".join([item["id"], item_player])
+
+        if key in all_values:
+            raise Exception(f"duplicate proof: {proof_item} {proof_player}")
+        
+        proof_values = []
+        for v in item["proof"]:
+            if v in proof_values:
+                raise Exception(f"duplicate proof: {proof_item} {proof_player}: {v}")
+            proof_values.append(v)
+
+        all_values[key] = proof_values
+
 
 def main():
     with open("data.yaml", "r") as f:

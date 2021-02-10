@@ -78,7 +78,9 @@ A proof may also apply to only a single user. For example "Changed jobs" could b
 
 ## create-item.py
 
-The `create-item.py` script can be used to safely.
+The `create-item.py` script can be used to safely record a board item.
+
+Example:
 
     $ python create-item.py --name "Went dancing" --description "Hit the dance floor" --tag social
 
@@ -102,3 +104,28 @@ optional arguments:
   --verbose, -v
 ```
 
+## create-proof.py
+
+The `create-proof.py` script can be used to safely record a proof.
+
+Example:
+
+    $ python create-proof.py --item 74ca1acf-25af-4b08-a59a-816d6172dbf1 "https://twitter.com/ngerakines/status/1347238662103298049"
+
+Usage:
+
+```
+usage: create-proof [-h] [--dest DESTINATION] [--item ITEM] [--player PLAYER] [--verbose] proof
+
+Records game proof
+
+positional arguments:
+  proof               The proof reference.
+
+optional arguments:
+  -h, --help          show this help message and exit
+  --dest DESTINATION  The destination file for the board item. (default: proof.yaml)
+  --item ITEM         The unique id of the board item.
+  --player PLAYER     The player identifer for the proof (optional)
+  --verbose, -v
+```
