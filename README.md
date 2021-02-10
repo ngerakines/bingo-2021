@@ -8,6 +8,8 @@ Seems to be something we've all said or heard, right? Well with Bingo 2021, we'r
 
 # Game Play
 
+**Bingo 2021** is a game that you play with friends, co-workers, or strangers to race to fill a bingo card with fun, hopefully lighthearted, and random events that *could* occur over the course of the year. Anyone can contribute to the event list that is used to generate the bingo cards. At the end of a game, scores are tallied, winners declared, and reminiscing to be had. 
+
 ## Set Up
 
 From January 1st, 2021 through March 31st, 2021, contributes to `data.yaml` will be made.
