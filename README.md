@@ -1,10 +1,30 @@
-# bingo-2021
+#  Welcome to Bingo 2021!
 
-Welcome to Bingo 2021!
+I had an idea to create a casual and fun bingo game for 2021. I think we can all agree that it's been kind of wild already, so why not try to have some fun along the way? I mean, how many times have you said or read "I didn't have this on my 2020 bingo card!"
 
-> I didn't have X on my 2020 bingo card, but ...
+Here is how it works:
 
-Seems to be something we've all said or heard, right? Well with Bingo 2021, we're going to have some fun with it.
+I created a project to collect all of the bingo items to track over the year. If you don't have a github account but want to add some, message me on Signal, text me, or message me here on FB.
+
+For the next 6 weeks, we're going to collect items to put on the cards and then on April 1st, everyone that is playing with get a card. I'll figure out collection and distribution, but I'm leaning toward emailing them out.
+
+Then, from April 1st to December 1st, anyone can record a "proof" for the items in the game. A proof can be a URL (think twitter, a news publication, etc.) or someone can "witness" it for you.
+
+In December we'll have a get together (... because we'll be done with Covid by then ... right?) and the winner gets a prize. Or just laughs. Or we'll have a collective cry together. It all depends on how 2021 goes.
+
+Lastly, this doesn't have to be family friendly per se, but I'm going to moderate out rude, offensive, or stuff that's "too" dark. I want this to be fun.
+
+# Q&A
+
+**Is this free?** Yeah, there is no money involved.
+
+**Where is the code and data used for this?** See https://github.com/ngerakines/bingo-2021
+
+**Can anyone participate?** Yeah, the more the merrier. If we get a lot of people outside of my friend circle(s), I may create a mailing list for it.
+
+**What are examples of bad bingo card items?** Anything that includes PII (personal identifying information), is sexual in nature, or is something that I deem inappropriate to include.
+
+If you want to play, add your name and email address to https://forms.gle/9oxYXp8fZ2aVjyFz9.
 
 # Game Play
 
