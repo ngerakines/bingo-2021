@@ -110,3 +110,8 @@
   description: "You enjoyed a refreshing cold beverage on an especially hot day."
   score: 1
   tags: []
+- id: 6342d453-4b28-47f7-afed-01fd34927171
+  name: "Planes, trains, and automobiles"
+  description: "You have traveled between two points over 3,000 miles away."
+  score: 1
+  tags: []
