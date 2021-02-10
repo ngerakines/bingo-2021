@@ -1,27 +1,27 @@
 - description: You have a new creature in your life.
   id: F3D50AF8-050F-4384-976C-838821ABD4A6
-  name: Got a new pet
+  name: "Got a new pet"
   score: 1
   tags:
   - personal
 - id: 78257f57-e8ba-4330-9495-a9fdd7920273
-  name: Went on a road trip
-  description:
+  name: "Went on a road trip"
+  description: "Went on a road trip"
   score: 1
   tags:
   - travel
 - id: 380ba73f-5eab-4b47-85d0-50ed231081e9
-  name: Recommended a book to someone
-  description:
+  name: "Recommended a book to someone"
+  description: "Recommended a book to someone"
   score: 1
   tags: []
 - id: bbd98280-c9da-4c41-b553-3c4699269378
-  name: Read a book that someone recommended
-  description:
+  name: "Read a book that someone recommended"
+  description: "Read a book that someone recommended"
   score: 1
   tags: []
 - id: 13330de0-232f-411a-94ce-ddfe5a2e9cad
-  name: Started a project
-  description: 
+  name: "Started a project"
+  description: "Started a project"
   score: 1
   tags: []
