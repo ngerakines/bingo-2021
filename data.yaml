@@ -125,3 +125,18 @@
   description: "You took a swing-dance lesson."
   score: 1
   tags: []
+- id: f465d5b9-5876-44de-af66-609830725fe8
+  name: "Went to the zoo"
+  description: "Either alone or with others, you went to a zoo."
+  score: 1
+  tags: []
+- id: dabadf29-d2ea-4e51-aa1e-a995b59f3017
+  name: "Went to the museum"
+  description: "Either alone or with others, you went to a museum."
+  score: 1
+  tags: []
+- id: 3f53d428-0e47-4d8a-849b-0f0d30953f46
+  name: "Went to the aquarium"
+  description: "Either alone or with others, you went to an aquarium."
+  score: 1
+  tags: []
